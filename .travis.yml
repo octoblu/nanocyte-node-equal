@@ -1,6 +1,5 @@
 language: node_js
 node_js:
-- '0.11'
 - '0.10'
 deploy:
   provider: npm
@@ -9,3 +8,4 @@ deploy:
     secure: EOKPG8MJi1SBB3jTVyNpN8oLMUWqF3aWz2m3n2dkGq78/h1wdhtLL7QMAxhK2a6I9iL648NfwATb++eeMKbSRijDwPZc2fMBEbuNwtm1xPjMYzCMwsZmZk/g1yb4df0Y6+ttXP/YY0K+X9o55xnXeSPC5C7BNmHE6+YxC5D+Dbf1ldix54/WGs/kq1urrIxlSEwFXrpnh6I3o/OLMZiy1mm3CCUgh2QwNfZIzHmLbXWZw5BZlNH9uoAkPGwXmc2e0zqirnZ244V639l/KShknsAImCyf8tskMqB3c9APRlr1A1G1R7/kbM4828ZBtP7dJ1+p8QyrlsRcmFsgBhIfLB3Oi1u+qTR1D+dF/8I+6LZ3drlYOwG3m6KS0lSOfVfpMRylh9GXwoKMG7xuVK37/DyED4++HujiRIjHbooWXQcDR1HKDQW1q8J73GaRSpVwuRIQOhPVrJAt7I8gEY3Qb0nrYesOBi1LN8rCIEaweka8X3c+lj+LCgfcf3aL9yMrUF5JXZvqpugxNR4/W1alTXqlf1NdfDZZl6dKiudg44b06xmjSxDUkmL+T3mggidDJQdL9A2p1uy+IQicHSp55xL5ceU4SWWVI5Eoy9qTkRkFz5qblSdqgEfiQvKk6dPbPPDVqCl46tfXCubwG/QMeRDZVjWe8dIKG4z9auXztdA=
   on:
     tags: true
+    all_branches: true
